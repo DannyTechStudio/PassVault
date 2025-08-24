@@ -1,0 +1,226 @@
+/*-------------------------------------------------------
+                    RESPONSIVENESS 
+-------------------------------------------------------*/
+
+@media (max-width: 768px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*----------------------------------------
+                   Navigation bar 
+    -----------------------------------------*/
+
+    #side-bar{
+        width: 99%;
+        height: 60px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        background-color: white;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.233);
+    }
+
+    #menu-toggle{
+        position: fixed;
+        right: 0;
+        left: 88%;
+        display: flex;
+        font-size: 1.8rem;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+
+    #side-bar h1{
+        position: fixed;
+        right: 65%;
+        color: #1a1a1a;
+    }
+
+    #nav-links{
+        position: fixed;
+        top: 8%;
+        right: 1rem;
+        width: 60%;
+        height: auto;
+        padding: 1rem;
+        flex-direction: column;
+        background: #e1e1e1;
+        display: none;
+        border-radius: 8px;
+    }
+
+    #nav-links.active{
+        display: flex;
+    }
+
+    #nav-links li{
+        margin: 10px 0;
+    }
+
+    #nav-links li svg{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    
+    /*----------------------------------------
+                Home page responsiveness 
+    -----------------------------------------*/
+    main{
+        width: 100%;
+        margin-top: 60px;
+    }
+    
+    .input-container,
+    .characters-container,
+    .checkbox-container,
+    .buttons-container,
+    .passwords-list{
+        width: 100%;
+    }
+
+    .passwords-list{
+        display: flex;
+        align-items: center;
+    }
+    
+    .result-container{
+        width: 95%;
+        display: flex;
+    }
+    
+    .output-buttons-wrapper{
+        width: 40%;
+        gap: 5px;
+    }
+
+    .tag-container{
+        width: 80%;
+    }
+
+    /*----------------------------------------
+                Checker page responsiveness 
+    -----------------------------------------*/
+    .input-wrapper,
+    .strength-checker-buttons,
+    .strength-indicator-container,
+    .entropy-score-container,
+    .recommendations-container{
+        width: 100%;
+    }
+    
+    /*----------------------------------------
+                History page responsiveness 
+    -----------------------------------------*/
+    .sub-title-container {
+        margin-top: 20px;
+    }
+
+    .sub-title-container h1,
+    .sub-title-container p{
+        width: 120%;
+        margin: 0;
+    }
+
+    .heading-container,
+    .history-container{
+        width: 98%;
+    }
+
+    .heading-container.headings:nth-child(4){
+        display: none;
+    }
+
+    .headings:nth-child(4){
+        display: none;
+    }
+    
+    .saved-passwords-container{
+        width: 95%;
+        position: relative;
+    }
+    
+    .saved-pw-container {
+        width: 100%;
+    }
+    
+    .saved-pw-holder{
+        width: 30%;
+    }
+    
+    .date-saved{
+        width: auto;
+    }
+
+    .hidden-btn-container {
+        display: flex;
+        border: none;
+        border-radius: 50px;
+        padding: 10px;
+        position: relative;
+        z-index: 10000;
+    }
+    
+    .action-btn-container{
+        position: absolute;
+        right: 0;
+        z-index: 9999;
+        width: max-content;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: #fff;
+        box-shadow: 2px 4px 6px rgba(255, 255, 255, 0.267);
+        margin-top: 80px;
+        display: none;
+    }
+
+    .action-btn-container button {
+        color: #1a1a1acf;
+    } 
+    
+    .action-btn-container button:hover {
+        color: #1a1a1a;
+    }
+
+    /*----------------------------------------
+                Setting page responsiveness 
+    -----------------------------------------*/
+    .appearance-container,
+    .security-container,
+    .data-container,
+    .sub-data-container{
+        width: 100%;
+    }
+    
+    .appearance-sub-container{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    
+    .title-container{
+        width:75%;
+        margin: 0;
+    }
+    
+    .privacy-container{
+        width: 100%;
+        margin-top: 50px;
+    }
+    
+    .pass-modal{
+        width: 80%;
+        position: fixed;
+        top: 25%;
+        left: 4%;
+    }
+
+    #theme-toggle-wrapper.active .path,
+    #encrypt-toggle-wrapper.active .path{
+        transform: translateX(36px);
+    }
+    
+}
+
