@@ -70,3 +70,13 @@ Pages screenshots here: generator, checker, history, settings, dark/light mode
 <img width="352" height="709" alt="PassVault_saved_password_page_mobile_view_dark" src="https://github.com/user-attachments/assets/f4918acd-13cd-45b2-a47e-ff36970ea120" />
 <img width="352" height="709" alt="PassVault_setting_page_mobile_view_light" src="https://github.com/user-attachments/assets/1176426e-d4db-4cc4-a9c2-c69c26dea7fe" />
 <img width="351" height="710" alt="PassVault_setting_page_mobile_view_dark" src="https://github.com/user-attachments/assets/1ac80d11-0b14-4bac-a0fb-32511468ee97" />
+
+  ## 💻Installation & Usage
+
+Clone the repository:
+git clone https://github.com/yourusername/passvault.git
+Open index.html in your browser.
+Start generating and managing your passwords securely.
+
+  ## 📜License
+This project is licensed under the MIT License — feel free to use and modify.
