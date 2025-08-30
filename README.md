@@ -74,7 +74,7 @@ Pages screenshots here: generator, checker, history, settings, dark/light mode
   ## 💻Installation & Usage
 
 Clone the repository:
-git clone https://github.com/yourusername/passvault.git
+git clone https://github.com/dannytechstudio/passvault.git
 Open index.html in your browser.
 Start generating and managing your passwords securely.
 
